@@ -6,4 +6,4 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home />,
     },
-], {basename: "/React-Portfolio"});
+], {basename: '/React-Portfolio'});
