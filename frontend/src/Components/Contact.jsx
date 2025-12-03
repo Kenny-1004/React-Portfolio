@@ -42,7 +42,7 @@ export default function Contact({contactsRef}) {
 
                 </div>
                 <div className="w-full text-center mt-10">
-                    <p className="text-center text-gray-500"><span className="text-lg text-black">&copy;</span> 2025 Kent Nicholas All rights reserved.</p>
+                    <p className="text-center text-gray-500"><span className="text-lg text-black">&copy;</span> 2025 Kent Nicholas All right reserved. Credits to AsmrProg as he inspired the design.</p>
                 </div>
             </div>
         </footer>

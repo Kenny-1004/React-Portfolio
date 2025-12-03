@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar.jsx";
 import ProjectCard from "../Components/ProjectCard.jsx";
 import Skills from "../Components/Skills.jsx";
 import Contact from "../Components/Contact.jsx";
+import { projects } from "../data/projects.js";
 
 export default function Home() {
     const aboutRef = useRef(null);
@@ -44,11 +45,10 @@ export default function Home() {
                         Featured Projects
                     </h1>
                     <div className="w-7/8 max-h-max mx-auto flex flex-wrap gap-5">
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
+                        {projects.map((value, index) => (
+                            <ProjectCard key={index} title={value.title} description={value.description}/>
+                            
+                        ))}
                     </div>
                 </section>
                 <Skills skillsRef={skillsRef} />
