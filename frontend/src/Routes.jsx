@@ -1,4 +1,4 @@
-import { createBrowserRouter, Link } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import Home from "./Pages/Home.jsx";
 
 export const router = createBrowserRouter([
