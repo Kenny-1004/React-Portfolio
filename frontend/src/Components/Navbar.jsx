@@ -43,7 +43,7 @@ export default function Navbar({
     });
 
     return (
-        <header className={`bar about-me fixed w-full mx-auto top-0 z-20`}>
+        <header className={`bar opacity-0 about-me fixed w-full mx-auto top-0 z-20`}>
             <nav className="px-10 py-5 w-7/8 mx-auto flex items-center justify-between">
                 <div>
                     <h1

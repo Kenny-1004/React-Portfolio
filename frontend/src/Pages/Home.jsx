@@ -41,7 +41,7 @@ export default function Home() {
                 <Hero scrollToContacts={scrollContacts} scrollToProjects={scrollToProjects} heroRef={heroRef} scrollToAbout={scrollToAbout} />
                 <AboutMe aboutRef={aboutRef} />
                 <section ref={projectsRef} className="py-20">
-                    <h1 className="bar text-center mb-20 text-3xl poppins-semibold">
+                    <h1 className="bar opacity-0 text-center mb-20 text-3xl poppins-semibold">
                         Featured Projects
                     </h1>
                     <div className="w-7/8 max-h-max mx-auto flex flex-wrap gap-5">

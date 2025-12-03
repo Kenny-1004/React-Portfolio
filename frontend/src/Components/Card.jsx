@@ -11,9 +11,10 @@ export default function Card({
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add("fade-in")
-                } else {
-                    entry.target.classList.remove("fade-in")
                 }
+                // else {
+                //     entry.target.classList.remove("fade-in")
+                // }
             })
         })
 
@@ -24,10 +25,10 @@ export default function Card({
 
         return () => {
             element.forEach((el) => {
-                observer.unobserve(el)
+                observer.disconnect(el)
             })
         }
-    })
+    }, [])
     return (
         <article className="border opacity-0 hover:scale-102 transition-all duration-300 border-gray-200 shadow-lg rounded-lg p-5 min-h-50">
             {Component}

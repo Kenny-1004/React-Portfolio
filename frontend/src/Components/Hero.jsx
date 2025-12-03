@@ -87,7 +87,7 @@ export default function Hero({scrollToAbout, heroRef, scrollToProjects, scrollTo
             <div className="flex items-center gap-32 hero-footer max-w-max max-h-max mx-auto mt-10">
                 <div>
                     <h1 className="bar opacity-0 font-bold text-2xl">1+</h1>
-                    <p className="text-gray-500 bar">Year(s) Experience</p>
+                    <p className="text-gray-500 bar opacity-0">Year(s) Experience</p>
                 </div>
                 <div>
                     <h1 className="bar opacity-0 font-bold text-2xl">20+</h1>
@@ -99,8 +99,8 @@ export default function Hero({scrollToAbout, heroRef, scrollToProjects, scrollTo
                 </div>
             </div>
 
-            <div className="w-full down">
-                <div onClick={scrollToAbout} className="bar max-w-max flex flex-col items-center justify-center px-20 py-5 animate-float">
+            <div className="w-full down bar opacity-0">
+                <div onClick={scrollToAbout} className=" max-w-max flex flex-col items-center justify-center px-20 py-5 animate-float">
                     <h1 className="text-gray-700">Learn more</h1>
                     <MoveDown />
                 </div>
