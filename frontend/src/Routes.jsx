@@ -15,4 +15,4 @@ export const router = createBrowserRouter([
             </Link>
         ),
     },
-], {basename: "/router"});
+], {basename: "/React-Portfolio"});
