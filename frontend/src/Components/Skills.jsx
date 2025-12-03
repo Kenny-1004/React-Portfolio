@@ -4,8 +4,8 @@ import { icons } from "../data/images.js";
 export default function Skills({skillsRef}) {
     return (
         <section ref={skillsRef} className="w-7/8 mx-auto max-h-max py-30">
-            <h1 className="text-3xl mb-20 poppins-semibold text-center">My Skills & Technologies</h1>
-            <div className="flex flex-wrap gap-5 items-center justify-center">
+            <h1 className="text-3xl mb-20 poppins-semibold text-center bar opacity-0">My Skills & Technologies</h1>
+            <div className="flex flex-wrap gap-5 items-center bar opacity-0 justify-center">
                 {icons.map((value, index) => (
                     <div className="p-10 hover:scale-103 transition-all duration-300 shadow-2xl grow basis-70 min-h-80 rounded-md">
                         <img key={index} style={{

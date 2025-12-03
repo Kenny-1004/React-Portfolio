@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ProjectCard({ title, description }) {
     return (
-        <article className="shadow-2xl hover:scale-102 transition-all duration-300 rounded-md min-h-120 basis-90 grow z-10">
+        <article className="bar opacity-0 shadow-2xl hover:scale-102 transition-all duration-300 rounded-md min-h-120 basis-90 grow z-10">
             <div className="w-full rounded-t-md bg-gray-400 min-h-50 flex items-center justify-center">
                 <h1 className="text-2xl text-white font-semibold">{title.slice(0, 1)}</h1>
             </div>

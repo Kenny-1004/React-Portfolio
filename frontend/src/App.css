@@ -60,6 +60,22 @@
 
 }
 
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(50px);
+  }to{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
+.fade-in{
+  animation: fadeIn 1.5s ease forwards;
+}
+
 @keyframes animate {
     0% {
         opacity: 0;
